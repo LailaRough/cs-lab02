@@ -10,6 +10,6 @@ int main()
     cout << "A + B = " << a + b << '\n'
          << "A - B = " << a - b << '\n'
          << "A * B = " << a * b << '\n'
-         << "A / B = " << a / b << '\n';////comment
+         << "A / B + A = " << a / b + a << '\n';
     return 0;
 }
