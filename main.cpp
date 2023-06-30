@@ -15,5 +15,12 @@ int main()
          << "A * B = " << a * b << '\n'
          << "A / B + A = " << a / b + a << '\n';
 >>>>>>> 458b03e24a4b78715b9c16be2ce719ef0d4ba6a5
+    if ( a > b ){
+        cout << a << '\n';
+    }
+    else
+    {
+        cout << b << '\n';
+    }
     return 0;
 }
